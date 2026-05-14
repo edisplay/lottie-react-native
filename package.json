@@ -34,7 +34,9 @@
   },
   "resolutions": {
     "@types/react": "^18.2.12",
-    "@types/react-native": "^0.70.14"
+    "@types/react-native": "^0.70.14",
+    "lodash": "4.17.12",
+    "fast-xml-parser": "4.5.4"
   },
   "workspaces": [
     "./packages/*",
