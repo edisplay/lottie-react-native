@@ -45,7 +45,10 @@
       "commitMessage": "chore: release ${version} [skip ci]",
       "tagName": "v${version}"
     },
-    "npm": false,
+    "npm": {
+      "publish": false,
+      "skipChecks": true
+    },
     "github": {
       "release": true,
       "comments": {
